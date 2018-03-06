@@ -7,6 +7,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import com.mf.gs.gsjpa.domain.Customer;
+import com.mf.gs.gsjpa.repository.CustomerRepository;
+
 @SpringBootApplication
 public class GsJpaApplication {
 
