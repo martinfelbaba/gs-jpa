@@ -1,4 +1,4 @@
-package com.mf.gs.gsjpa.repository;
+package com.mf.gs.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -11,8 +11,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.mf.gs.gsjpa.domain.Customer;
-import com.mf.gs.gsjpa.repository.CustomerRepository;
+import com.mf.gs.domain.Customer;
+import com.mf.gs.repository.CustomerRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

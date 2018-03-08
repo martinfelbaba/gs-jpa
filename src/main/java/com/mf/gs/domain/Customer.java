@@ -1,4 +1,4 @@
-package com.mf.gs.gsjpa.domain;
+package com.mf.gs.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

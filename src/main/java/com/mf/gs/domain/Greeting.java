@@ -1,4 +1,4 @@
-package com.mf.gs.gsjpa.domain;
+package com.mf.gs.domain;
 
 public class Greeting {
 

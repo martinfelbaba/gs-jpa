@@ -1,4 +1,4 @@
-package com.mf.gs.gsjpa.controller;
+package com.mf.gs.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mf.gs.gsjpa.domain.Greeting;
+import com.mf.gs.domain.Greeting;
 
 @RestController
 public class GreetingController {

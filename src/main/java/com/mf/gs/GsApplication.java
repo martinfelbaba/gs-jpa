@@ -1,4 +1,4 @@
-package com.mf.gs.gsjpa;
+package com.mf.gs;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,16 +7,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.mf.gs.gsjpa.domain.Customer;
-import com.mf.gs.gsjpa.repository.CustomerRepository;
+import com.mf.gs.domain.Customer;
+import com.mf.gs.repository.CustomerRepository;
 
 @SpringBootApplication
-public class GsJpaApplication {
+public class GsApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(GsJpaApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(GsApplication.class);
 	
 	public static void main(String[] args) {
-		SpringApplication.run(GsJpaApplication.class, args);
+		SpringApplication.run(GsApplication.class, args);
 	}
 	
 	@Bean
